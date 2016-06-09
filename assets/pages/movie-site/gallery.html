@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Straight Outta Compton Movie</title>
+	<meta name="viewport" content="height=device-height, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="assets/js/responsiveslides.min.js"></script>
+</head>
+<body>
+  <script>
+    $(function () {
+      $("#slider2").responsiveSlides({
+        auto: false,
+        pager: true,
+        nav: true,
+        speed: 500,
+        maxwidth: 800,
+        namespace: "transparent-btns"
+      });
+    });
+  </script>
+	<div class="mobile-gallery">
+		<header>
+			<div>
+				<img class="soclogo-small" src="assets/images/logo.png" alt="soc_logo">
+				<h1 class="title">GALLERY</h1>
+			</div>	
+		</header>
+		<h2>Click Left/Right Side</h2>
+		<h2 class="warning">Please Switch to Horizontal View</h2>
+		<div class="content">
+			<div class="rslides_container">
+				<ul class="rslides" id="slider2">
+					<li><img src="assets/images/eazye.jpg" alt=""></li>
+					<li><img src="assets/images/drdre.jpg" alt=""></li>
+					<li><img src="assets/images/icecube.jpg" alt=""></li>
+					<li><img src="assets/images/djyella.jpg" alt=""></li>
+					<li><img src="assets/images/mcren.jpg" alt=""></li>
+					<li><img src="assets/images/soc-group.jpg" alt=""></li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			<nav>
+				<ul class="">
+					<li><a href="index.html"><img src="assets/images/home.jpg" alt="home_logo"></a></li>
+					<li><a href="story.html"><img src="assets/images/story.jpg" alt="story_logo"></a></li>
+					<li><a href="#"><img src="assets/images/gallery-h.jpg" alt="gallary_logo"></a></li>
+					<li><a href="media.html"><img src="assets/images/media.jpg" alt="media_logo"></a></li>
+				</ul>
+			</nav>
+		</footer>
+	</div> <!-- .mobile -->	
+	<div class="desktopwrapper">
+		<a class="desktop" href="index.html">CLICK TO GO TO DESKTOP SITE</a>
+	</div>
+</body>
+</html>
