@@ -713,8 +713,8 @@ body {
 
   #section1 {
     background-image: url(../images/bg1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+/*    background-size: cover !important;
+    background-attachment: fixed;*/
   }
   #section1 .intro {
     padding: 2em;
